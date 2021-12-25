@@ -18,3 +18,4 @@
     RewriteRule ^ server.php
 
 </IfModule>
+ 
