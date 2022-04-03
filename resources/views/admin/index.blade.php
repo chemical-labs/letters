@@ -94,8 +94,22 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('inbox-letter') }}" >
+                <a class="nav-link" href="{{ route('custom-template-new') }}" >
                     <i class="fas fa-fw fa-envelope"></i>
+                    <span>Buat Surat</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route("letters-my") }}" >
+                    <i class="fas fa-fw fa-list-alt"></i>
+                    <span>Surat Saya</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route("inbox-letter") }}" >
+                    <i class="fas fa-fw fa-inbox"></i>
                     <span>Inbox Surat</span>
                 </a>
             </li>
